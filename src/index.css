@@ -25,10 +25,15 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column; /* so things stack normally */
+  align-items: center;     /* center horizontally */
+  background-color: #242424; /* dark background you had before */
   min-width: 320px;
   min-height: 100vh;
+  color: rgba(255, 255, 255, 0.87); /* optional: text stays white */
 }
+
+
 
 h1 {
   font-size: 3.2em;
