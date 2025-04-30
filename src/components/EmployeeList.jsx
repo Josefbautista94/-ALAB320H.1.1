@@ -8,14 +8,21 @@ const employees = [
   { id: 5, name: "Ray Moore", title: "VP of Sales" },
   { id: 6, name: "Paul Jones", title: "QA Manager" },
 ];
+
 const EmployeeList = () => {
   return (
-    <div style={{ 
-      width: "90%", 
-      maxWidth: "500px", 
-      margin: "0 auto", 
-      padding: "20px" 
-    }}>
+    <div
+      style={{
+        width: "100%", 
+        maxWidth: "500px", 
+        margin: "0 auto", 
+        padding: "20px" ,
+        backgroundColor: "#1a1a1a", 
+        borderRadius: "12px",
+        boxShadow: "0 0 10px rgba(0, 0, 0, 0.4)",
+        boxSizing: "border-box" 
+      }}
+    >
       {employees.map((emp) => (
         <EmployeeListItem key={emp.id} name={emp.name} title={emp.title} />
       ))}

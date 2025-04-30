@@ -7,7 +7,7 @@ const EmployeeListItem = ({ name, title }) => {
         borderRadius: "5px",
         display: "flex",
         alignItems: "center",
-        gap: "15px"
+        gap: "15px",
       }}>
         <img 
           src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/463434516_8431214456927655_2414350569029819121_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=xKPPzxAr8YwQ7kNvwFBGpAp&_nc_oc=AdkiRA4mwY4kt3cIpoKhZF3npSC6ZwxkSXubQLRvq2XKaiWO-erWIklhCZOxXlLBomE_8AuKF5OFtdRGY41YICLQ&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=yzdWMuNJQpNFXyfjFX0pjQ&oh=00_AfEir88KLHJIgCKRk32YgyzT-AD46UzAu7RPbjkzkrtg8A&oe=68160AC8" 
